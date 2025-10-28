@@ -16,6 +16,6 @@ dependencies:
   - pip:
     - snowflake-connector-python==3.1.1
     - snowflake-sqlalchemy==1.4.7
-# Observação: não incluímos frameworks maiores (Airflow, DBT, Docker tools) neste
-# environment por escolha deliberada — instale-os manualmente quando desejar.
+# Observação: não foi incluído os frameworks maiores (Airflow, DBT, Docker tools) neste
+# environment, instalar manualmente quando desejar.
 # Se quiser adicionar DBT via pip após ativar o ambiente: `pip install dbt-core dbt-snowflake`
