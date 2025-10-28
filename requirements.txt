@@ -1,0 +1,2 @@
+# Requirements vazios - adicione dependências conforme necessário
+# Backup das versões anteriores está em requirements.txt.bak

@@ -1,0 +1,28 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: your-account
+      user: your_user
+      password: your_password
+      role: your_role
+      database: your_database
+      warehouse: your_warehouse
+      schema: your_schema
+      threads: 4
+      client_session_keep_alive: False
+      query_tag: dbt_mind_data_pipeline
+
+    prod:
+      type: snowflake
+      account: your-account
+      user: your_user
+      password: your_password
+      role: your_role
+      database: your_database
+      warehouse: your_warehouse
+      schema: your_schema
+      threads: 4
+      client_session_keep_alive: False
+      query_tag: dbt_mind_data_pipeline

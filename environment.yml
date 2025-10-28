@@ -1,0 +1,21 @@
+name: mind-dataapp-pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - openjdk=11
+  - pip
+  - pyspark=3.4.1
+  - pyarrow=10.0.1
+  - numpy
+  - pandas
+  - pyyaml
+  - python-dotenv
+  - sqlalchemy
+  - pip:
+    - snowflake-connector-python==3.1.1
+    - snowflake-sqlalchemy==1.4.7
+# Observação: não incluímos frameworks maiores (Airflow, DBT, Docker tools) neste
+# environment por escolha deliberada — instale-os manualmente quando desejar.
+# Se quiser adicionar DBT via pip após ativar o ambiente: `pip install dbt-core dbt-snowflake`
