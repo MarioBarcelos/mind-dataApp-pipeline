@@ -1,9 +1,9 @@
 {
-    "url": "your-account.snowflakecomputing.com",
-    "user": "your_user",
-    "password": "your_password",
-    "database": "your_database",
-    "schema": "your_schema",
-    "warehouse": "your_warehouse",
-    "role": "your_role"
+    "url": "account.snowflakecomputing.com",
+    "user": "user",
+    "password": "password",
+    "database": "database",
+    "schema": "schema",
+    "warehouse": "warehouse",
+    "role": "role"
 }
